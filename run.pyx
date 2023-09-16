@@ -37,7 +37,7 @@ class mommykafka:
             print('Yang bener su!');lumine(1);mommykafka()
     def susu_reine(self):
         try:
-            x = open("ASSETS/...x",'r').read()
+            open("ASSETS/...x",'r').read()
             self.susu_ganyu()
         except FileNotFoundError:
             self.susu_moona()
